@@ -1,0 +1,13 @@
+CREATE DATABASE bento;
+USE bento;
+CREATE TABLE people ID TEXT name TEXT address TEXT postal TEXT age INT;
+INSERT INTO people VALUES 1000 "Émilie Tremblay" "433 rue Saint-Jean" "G1R 3X3" 52;
+INSERT INTO people VALUES 1001 "Julien Gagnon" "888 avenue Cartier" "G1K 4E6" 19;
+INSERT INTO people VALUES 1002 "Sophie Lavoie" "133 boulevard Laurier" "G1V 2M2" 46;
+INSERT INTO people VALUES 1003 "Maxime Bouchard" "730 rue Saint-Louis" "G1S 1Y2" 68;
+INSERT INTO people VALUES 1004 "Chantal Dufresne" "260 chemin Sainte-Foy" "G1L 3A7" 24;
+INSERT INTO people VALUES 1005 "Alexandre Roy" "787 rue de la Couronne" "G1N 4B5" 39;
+INSERT INTO people VALUES 1006 "Mireille Paquette" "187 rue du Petit-Champlain" "G1E 5Y7" 31;
+INSERT INTO people VALUES 1007 "Philippe Fortin" "425 avenue Myrand" "G1J 2B2" 47;
+INSERT INTO people VALUES 1008 "Marie-Claude Lemieux" "961 rue Maguire" "G1W 3P3" 27;
+INSERT INTO people VALUES 1009 "Simon Morin" "398 rue Saint-Vallier" "G1C 1A1" 35;
