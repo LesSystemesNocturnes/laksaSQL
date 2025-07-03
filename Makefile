@@ -1,15 +1,9 @@
-# Makefile
+CC=gcc
+CFLAGS=-Wall -Iinclude
+SRC=src/main.c src/parser.c src/tokenizer.c src/query_executor.c
+OBJ=$(SRC:.c=.o)
 
-CC = gcc
-CFLAGS = -Wall -Iinclude
-SRC = $(wildcard src/*.c)
-OBJ = $(SRC:.c=.o)
-TARGET = laksa
-
-all: $(TARGET)
-
-$(TARGET): $(SRC)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
-
+laksa: $(SRC)
+	$(CC) $(CFLAGS) -o laksa $(SRC)
 clean:
-	rm -f $(TARGET) src/*.o
+	rm -f laksa

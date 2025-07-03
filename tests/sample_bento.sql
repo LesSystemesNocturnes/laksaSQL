@@ -1,4 +1,4 @@
-CREATE DATABASE bento;
+CREATE DATABASE bentoz;
 USE bento;
 CREATE TABLE people ID TEXT name TEXT address TEXT postal TEXT age INT;
 INSERT INTO people VALUES 1000 "Émilie Tremblay" "433 rue Saint-Jean" "G1R 3X3" 52;
